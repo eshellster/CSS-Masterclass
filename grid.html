@@ -10,25 +10,21 @@
         display: grid;
         grid-auto-rows: 200px;
         grid-gap: 1px;
-        grid-template-areas: "header header header" "content content sidebar" "content content sidebar" "footer footer footer";
+        grid-template-columns: 4fr repeat(3, 1fr);
       }
       .box {
         background-color: brown;
       }
       .first {
-        grid-area: header;
         background-color: #ffa510;
       }
       .second {
-        grid-area: content;
         background-color: #3d89f5;
       }
       .third {
-        grid-area: sidebar;
         background-color: #31a154;
       }
       .fourth {
-        grid-area: footer;
         background-color: #c94d00;
       }
     </style>
