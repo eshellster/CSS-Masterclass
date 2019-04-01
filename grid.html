@@ -8,37 +8,39 @@
     <style>
       .father {
         display: grid;
-        grid-auto-rows: 200px;
-        grid-gap: 1px;
-        grid-template-columns: min-content repeat(3, 1fr);
+        grid-gap: 10px;
+        grid-auto-rows: 100px;
+        grid-auto-flow: dense;
+        grid-template-columns: repeat(5, 1fr);
       }
       .box {
-        background-color: brown;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
       }
-      .first {
-        background-color: #ffa510;
-      }
-      .second {
+      .box:nth-child(even) {
         background-color: #3d89f5;
       }
-      .third {
-        background-color: #31a154;
+      .box:nth-child(odd) {
+        background-color: #3f5a79;
       }
-      .fourth {
-        background-color: #c94d00;
+      .box:first-child {
+        place-self: center center;
       }
     </style>
   </head>
   <body>
     <div class="father">
-      <div class="first">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-        voluptas a deleniti ipsum earum aspernatur ab natus. Laboriosam natus
-        non dolor cumque ea voluptates! Porro quos exercitationem ad nihil hic.
-      </div>
-      <div class="second"></div>
-      <div class="third"></div>
-      <div class="fourth"></div>
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+      <div class="box">5</div>
+      <div class="box">6</div>
+      <div class="box">7</div>
+      <div class="box">8</div>
+      <div class="box">9</div>
     </div>
   </body>
 </html>
