@@ -1,0 +1,6 @@
+
+logs
+*.log
+dist
+.cache
+.DS_Store

@@ -1,0 +1,19 @@
+{
+  "name": "CSS-Masterclass",
+  "version": "1.0.0",
+  "description": "CSS Masterclass course (Flexbox, Grid, PostCSS, CSSNext)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eshellster/CSS-Masterclass.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eshellster/CSS-Masterclass/issues"
+  },
+  "homepage": "https://github.com/eshellster/CSS-Masterclass#readme",
+  "scripts": {
+    "start": "parcel index.html"
+  }
+}
